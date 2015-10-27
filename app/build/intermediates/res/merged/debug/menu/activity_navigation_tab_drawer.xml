@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_consumption" android:icon="@android:drawable/ic_menu_camera"
+            android:title="Consumption" />
+    </group>
+
+    <item android:title="Energy Saving Recommendations">
+        <menu>
+            <item android:id="@+id/nav_personal_recommendation" android:icon="@android:drawable/ic_menu_gallery"
+                android:title="Personal Recommendation" />
+            <item android:id="@+id/nav_general_recommendation" android:icon="@android:drawable/ic_menu_manage"
+                android:title="General Recommendation" />
+        </menu>
+    </item>
+
+    <item android:title="Information and Markers">
+        <menu>
+            <item android:id="@+id/nav_building_conditions" android:icon="@android:drawable/ic_menu_send"
+                android:title="Building Conditions" />
+            <item android:id="@+id/nav_energy_markers" android:icon="@android:drawable/ic_menu_send"
+                android:title="Energy Markers" />
+            <item android:id="@+id/nav_personal_information" android:icon="@android:drawable/ic_menu_share"
+                android:title="Personal Information" />
+        </menu>
+    </item>
+
+</menu><!-- From: file:/Users/umorujoseph/AndroidStudioProjects/SmartRefurbishment/app/src/main/res/menu/activity_navigation_tab_drawer.xml -->
